@@ -7,12 +7,7 @@ public class NameFormatter {
     private String prefix;
     private String suffix;
 
-    private NameFormatter(String firstName, String lastName, String middleName, String prefix, String suffix) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.middleName = middleName;
-        this.prefix = prefix;
-        this.suffix = suffix;
+    private NameFormatter() {
     }
 
     public String getFirstName() {
