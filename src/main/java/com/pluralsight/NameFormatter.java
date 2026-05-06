@@ -49,10 +49,10 @@ public class NameFormatter {
             format += " " + firstName;
         }
         if (!middleName.isEmpty()) {
-            format += ", " + middleName;
+            format += " " + middleName;
         }
         if (!suffix.isEmpty()) {
-            format += " " + suffix;
+            format += ", " + suffix;
         }
         return format;
     }
